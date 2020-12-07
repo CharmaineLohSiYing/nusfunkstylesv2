@@ -1,20 +1,13 @@
-.header {
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 64px;
-    background-color:#343a40;
-    box-sizing: border-box;
-}
-
 img {
     height: 40px
 }
 
-.circle {
-    height: 44px;
-    width: 44px;
-    border-radius: 22px;
-    background-color: orange;
-}
+@media only screen and (min-width: 500px) {
+    .header {
+        height: 96px
+    }
+
+    img {
+        height: 72px
+    }
+} 
