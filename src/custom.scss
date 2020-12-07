@@ -1,0 +1,8 @@
+// Override default variables before the import
+$primary: red;
+$secondary: green;
+$dark: #343a40;
+$navbar-light-brand-color: rgba(252,252,252,0.75);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';

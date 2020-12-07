@@ -1,0 +1,33 @@
+/*** SIZING ***/
+
+body {
+    margin: 0
+}
+
+/*** TEXT ***/
+
+.montserrat_regular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+
+.montserrat_semi_bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+}
+
+.montserrat_bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+}
+
+h4 {
+    font-size: 14px !important;
+    margin: 0px !important;
+}
+
+
+/*** COLORS ***/
+.white {
+    color: rgba(252,252,252,0.75)
+}
