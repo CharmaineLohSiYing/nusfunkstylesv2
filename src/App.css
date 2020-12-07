@@ -26,8 +26,16 @@ h4 {
     margin: 0px !important;
 }
 
+.new-line {
+    white-space: pre-line;
+}
+
 
 /*** COLORS ***/
 .white {
     color: rgba(252,252,252,0.75)
+}
+
+.active {
+    color: #fcb03a;
 }

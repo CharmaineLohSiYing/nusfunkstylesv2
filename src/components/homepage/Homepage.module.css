@@ -1,10 +1,45 @@
 
+
 video {
     width: 100%;
 }
 
-/* @media only screen and (min-width: 500px) {
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.maintext {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vh;
+    color: white;
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 300px) {
     video {
-        height: auto;
+        position: relative;
+        top: -64px;
+        z-index: -1;
     }
-  } */
+  }
+
+
+@media only screen and (max-width: 1099px) and (min-width: 300px) {
+    .maintext {
+        visibility: visible;
+    }
+  }
+
+  
+@media only screen and (min-width: 1100px) {
+    .maintext {
+        visibility: visible;
+        font-size: 6vh;
+    }
+  }
