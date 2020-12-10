@@ -57,6 +57,12 @@ body {
     background-color: #4b2b70;
 }
 
+.bg {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
 .active {
     color: #fcb03a;
 }

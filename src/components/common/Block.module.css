@@ -2,9 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.container_padding {
     padding: 60px 20px;
 }
 
 .block_content {
     width: 90%;
+}
+
+
+.image {
+    width: 100%;
+    height: auto;
 }

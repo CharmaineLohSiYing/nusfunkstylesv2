@@ -1,0 +1,40 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.separator {
+    margin-bottom: 10px;
+    height: 2px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 500px) {
+
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .separator {
+        height: 200px;
+        width: 2px;
+        margin: 20px;
+    }
+
+    .text_portion_b {
+        width: 55%;
+        text-align: right;
+    }
+
+    .text_portion_a {
+        width: 35%;
+    }
+
+  }
