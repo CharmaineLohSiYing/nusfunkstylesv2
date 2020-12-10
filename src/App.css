@@ -21,19 +21,51 @@ body {
     font-weight:700;
 }
 
-h4 {
+/* h4 {
     font-size: 14px !important;
     margin: 0px !important;
 }
 
-.new-line {
+@media only screen and (min-width: 500px) {
+    h4 {
+        font-size: 16px !important;
+    }
+  } */
+
+.new_line {
     white-space: pre-line;
+}
+
+.centered_text {
+    text-align: center;
+    overflow-wrap: normal;
 }
 
 
 /*** COLORS ***/
-.white {
+
+.dark {
+    color: #343a40;
+}
+
+.off_white {
     color: rgba(252,252,252,0.75)
+}
+
+.white {
+    color: #fff;
+}
+
+.orange {
+    color: #fcb03a
+}
+
+.bg_orange {
+    background-color: #fcb03a;
+}
+
+.bg_purple {
+    background-color: #4b2b70;
 }
 
 .active {

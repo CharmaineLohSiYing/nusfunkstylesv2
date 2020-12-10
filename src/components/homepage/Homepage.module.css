@@ -1,6 +1,6 @@
 
 
-video {
+.mainvideo {
     width: 100%;
 }
 
@@ -8,6 +8,21 @@ video {
     position: relative;
     text-align: center;
     color: white;
+    margin-bottom: -8px;
+}
+
+.second_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.separator {
+    margin-bottom: 10px;
+    height: 2px;
+    width: 100%;
 }
 
 .maintext {
@@ -22,15 +37,37 @@ video {
 }
 
 @media only screen and (min-width: 300px) {
-    video {
-        position: relative;
-        top: -64px;
+    .mainvideo {
         z-index: -1;
     }
   }
 
+@media only screen and (min-width: 500px) {
 
-@media only screen and (max-width: 1099px) and (min-width: 300px) {
+    .second_block {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .separator {
+        height: 200px;
+        width: 2px;
+        margin: 20px;
+    }
+
+    .second_block_b {
+        width: 55%;
+        text-align: right;
+    }
+
+    .second_block_a {
+        width: 35%;
+    }
+  }
+
+
+@media only screen and (max-width: 1099px) and (min-width: 500px) {
     .maintext {
         visibility: visible;
     }
