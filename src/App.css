@@ -57,19 +57,29 @@ body {
     background-color: #4b2b70;
 }
 
-.bg {
-    width: 100%;
-    height: auto;
-    z-index: -1;
-}
 
 .active {
     color: #fcb03a;
 }
 
 
+
 @media only screen and (max-width: 499px) {
     .md {
         display: none;
     }
+}
+
+
+/*** POSITIONING ****/
+
+
+.bg {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.over_bg {
+    position: absolute;
 }

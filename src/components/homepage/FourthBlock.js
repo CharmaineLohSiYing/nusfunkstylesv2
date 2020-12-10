@@ -4,7 +4,7 @@ import Block from '../common/Block';
 
 export default function FourthBlock() {
     return (
-        <Block imageBackground="images/homepage/selfie.jpg" alt="Showcase">
+        <Block imageBackground="images/homepage/Selfie.jpg" alt="Showcase">
             <div className={styles.text + " montserrat_regular"}>
                 <div className={styles.subtitle + " orange"}>Vision</div>
                 <div>To be a vibrant and prominent tertiary Funk Style club in<br/> Singapore that

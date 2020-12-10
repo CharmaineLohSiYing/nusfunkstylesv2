@@ -1,0 +1,19 @@
+
+.ring {
+    position: absolute;
+    height: 100%;
+    width: auto
+}
+
+.photo {
+    height: 100%;
+    width: auto;
+}
+
+
+.circle {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+

@@ -13,10 +13,10 @@ const Header = () => {
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                 <Nav activeKey="/home">
-                <Nav.Link href="home" active={true} className="px-lg-4 px-md-2"><h5 className={"active montserrat_semi_bold px-md-2"}>HOME</h5></Nav.Link>
-                <Nav.Link href="home" className="px-lg-4 px-md-2"><h5 className={"off_white montserrat_semi_bold px-md-2 " + styles.navbartext}>COMMUNITY</h5></Nav.Link>
-                <Nav.Link href="home" className="px-lg-4 px-md-2"><h5 className={"off_white montserrat_semi_bold px-md-2 " + styles.navbartext}>EVENTS</h5></Nav.Link>
-                <Nav.Link href="home" className="px-lg-4 px-md-2"><h5 className={"off_white montserrat_semi_bold px-md-2 " + styles.navbartext}>CONTACT US</h5></Nav.Link>
+                <Nav.Link href="home" active={true} className="px-lg-4 px-md-2"><h6 className={"active montserrat_semi_bold px-md-2"}>HOME</h6></Nav.Link>
+                <Nav.Link href="home" className="px-lg-4 px-md-2"><h6 className={"off_white montserrat_semi_bold px-md-2 " + styles.navbartext}>COMMUNITY</h6></Nav.Link>
+                <Nav.Link href="home" className="px-lg-4 px-md-2"><h6 className={"off_white montserrat_semi_bold px-md-2 " + styles.navbartext}>EVENTS</h6></Nav.Link>
+                <Nav.Link href="home" className="px-lg-4 px-md-2"><h6 className={"off_white montserrat_semi_bold px-md-2 " + styles.navbartext}>CONTACT US</h6></Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
