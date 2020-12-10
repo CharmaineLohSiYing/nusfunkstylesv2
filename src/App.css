@@ -60,3 +60,10 @@ body {
 .active {
     color: #fcb03a;
 }
+
+
+@media only screen and (max-width: 499px) {
+    .md {
+        display: none;
+    }
+}

@@ -6,7 +6,7 @@ import { FiMenu } from "react-icons/fi";
 const Header = () => {
 
     return (
-        <Navbar bg="dark" expand="md" fixed="top" className={styles.header}>
+        <Navbar bg="dark" expand="md" className={styles.header}>
             <Navbar.Brand href="#home"><img src={"/images/Logo.png"} alt="logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <FiMenu className="off_white" size={24}/>
