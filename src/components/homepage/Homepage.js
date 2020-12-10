@@ -9,7 +9,7 @@ const Homepage = () => {
     return (
         <div>
             <section className={styles.container}>
-                <video className={styles.mainvideo} src="/images/Homepage Video.mp4" autoPlay loop muted/>
+                <video className={styles.mainvideo} src="/images/homepage/Homepage Video.mp4" autoPlay loop muted/>
                 <pre className={styles.maintext + " montserrat_bold new_line"}>
                     {mainText}
                 </pre>
@@ -31,6 +31,27 @@ const Homepage = () => {
                         
                     </div>
                     
+                </Block>
+                <Block backgroundColor="bg_orange">
+                    <div>
+                        <div className={styles['third_block_first_row']}>
+                            <img className={styles.locker} src="images/homepage/Locking Character 1.png" alt="Locking Character"/>
+                            <div className={styles['third_block_small_text'] + " montserrat_bold text-center dark"}>Est. 2011</div>
+                            <img className={styles.popper} src="images/homepage/Popping Character 1.png" alt="Popping"/>
+                        </div>
+                        <div className={styles['third_block_text']}>
+                                <div className={styles['third_block_main_text'] + " montserrat_bold text-center white"}>
+                                    KEEP THE FUNK ALIVE
+                                </div>
+                                <div className={styles['third_block_small_text'] + " montserrat_bold text-center dark"}>
+                                Locking x Popping
+                                </div>
+
+                        </div>
+                        {/* <div>
+                            <img className={styles.popper} src="images/homepage/Popping Character 1.png" alt="Popping"/>
+                        </div> */}
+                    </div>
                 </Block>
             </section>
         </div>

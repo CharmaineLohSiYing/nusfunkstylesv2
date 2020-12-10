@@ -18,6 +18,39 @@
     justify-content: space-between;
 }
 
+.third_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third_block_first_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+.third_block_small_text {
+    font-size: 5vw;
+}
+
+.third_block_main_text {
+    font-size: 7vw
+}
+
+
+
+.locker {
+    width:15vw;
+    height:auto;
+}
+
+.popper {
+    width:19.5vw;
+    height:auto;
+}
+
 
 .separator {
     margin-bottom: 10px;
