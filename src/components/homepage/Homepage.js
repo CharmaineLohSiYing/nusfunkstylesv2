@@ -1,10 +1,11 @@
 import styles from './Homepage.module.css';
 import Block from '../common/Block';
-import FirstBlock from '../homepage/FirstBlock';
-import SecondBlock from '../homepage/SecondBlock';
-import FourthBlock from '../homepage/FourthBlock';
-import ThirdBlock from '../homepage/ThirdBlock';
+import FirstBlock from './FirstBlock';
+import SecondBlock from './SecondBlock';
+import FourthBlock from './FourthBlock';
+import ThirdBlock from './ThirdBlock';
 import FifthBlock from './fifthblock/FifthBlock';
+import SixthBlock from './SixthBlock';
 
 const Homepage = () => {
     return (
@@ -17,6 +18,7 @@ const Homepage = () => {
                 <ThirdBlock/>
                 <FourthBlock/>
                 <FifthBlock/>
+                <SixthBlock/>
             </section>
         </div>
     )

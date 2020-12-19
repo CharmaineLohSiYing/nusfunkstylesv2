@@ -1,0 +1,16 @@
+.text {
+    position: absolute;
+    font-size: 4.5vw;
+    color: white;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+}
+  
+@media only screen and (min-width: 1100px) {
+  /* .text {
+    font-size: 1vw;
+    } */
+}
