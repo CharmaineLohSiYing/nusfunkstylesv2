@@ -12,8 +12,6 @@ const Homepage = () => {
         <div>
             <section>
                 <FirstBlock/>
-            </section>
-            <section>
                 <SecondBlock/>
                 <ThirdBlock/>
                 <FourthBlock/>

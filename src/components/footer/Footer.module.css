@@ -1,0 +1,27 @@
+.email {
+    margin-left: 10px;
+    height: 32px;
+    width: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+}
+
+
+.instagram {
+    width: 32px;
+    height: auto;
+}
+
+.facebook {
+    height: 32px;
+    width: auto;
+}
+
+.youtube {
+    width:32px;
+    height: auto;
+} 
