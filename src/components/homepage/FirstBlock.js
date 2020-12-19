@@ -7,7 +7,7 @@ export default function FirstBlock() {
     return (
         <div className={styles.container}>
             <video className="bg" src="/images/homepage/Homepage Video.mp4" autoPlay loop muted/>
-            <pre className={styles.text + " montserrat_bold new_line"}>
+            <pre className={styles.text + " center montserrat_bold new_line"}>
                 {Text}
             </pre>
         </div>

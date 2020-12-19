@@ -9,8 +9,8 @@ export default function CarouselItem(props) {
                 <img className={styles.photo} src={"images/homepage/spotlight/" + props.name + "@4x.png"} alt="First slide"/>
                 <img className={styles.ring} src="images/homepage/spotlight/Ring around pic.png" alt="Ring around pic"/>
             </div>
-            <div className="white text-center montserrat_regular mt-4">{props.speech}</div>
-            <div className="orange text-center montserrat_regular">- {props.name}, Founding Member, {props.position}</div> 
+            <h6 className="white text-center montserrat_regular mt-4">{props.speech}</h6>
+            <h6 className="orange text-center montserrat_regular">- {props.name}, Founding Member, {props.position}</h6> 
         </div>
     )
 }

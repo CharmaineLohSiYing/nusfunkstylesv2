@@ -1,20 +1,63 @@
 .text {
-    position: absolute;
-    font-size: 2vw;
-    color: white;
-    text-align: left;
-    top: 10%;
-    left: 8%;
+  position: absolute;
+  font-size: 2vw;
+  color: white;
+  text-align: left;
+  top: 10%;
+  left: 8%;
 }
+
 
 .subtitle {
-  font-weight: bold;
-  font-size: 3vw;
+font-weight: bold;
+font-size: 3vw;
 }
 
-  
+.web {
+  width: 40%;
+  display: none;
+}
+
+.mobile {
+  display: block;
+  z-index: 3;
+  width: 80%;
+}
+
+.mobile_bg {
+  display: block;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  opacity:0.6;
+  background-color:rgb(32, 31, 31);
+}
+
+.mobile_subtitle {
+  font-weight: bold;
+}
+
+.mobile_text {
+  color: white;
+}
+
+
 @media only screen and (min-width: 1100px) {
+  .web {
+    display: block
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .mobile_bg {
+    display: none;
+  }
+
   .text {
     font-size: 1vw;
-}
+  }
+
+
 }
