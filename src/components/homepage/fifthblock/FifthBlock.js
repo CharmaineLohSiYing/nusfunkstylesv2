@@ -68,7 +68,7 @@ const data = [
     },
     {
         key: 7,
-        name: 'Yang Tinshen',
+        name: 'Yong Tinshen',
         position: 'Advisor',
         speech: tinshenSpeech
     },
@@ -77,19 +77,6 @@ const data = [
 
 export default function FifthBlock() {
     return (
-        // <Block imageBackground="images/homepage/spotlight/Spotlight background with white backing.png" alt="Spotlight Background">
-        //     <div className={styles.container + " over_bg"}> 
-        //         <div className={"montserrat_regular white " + styles['title_1']}>How was the club formed?</div>
-        //         <div className={"montserrat_bold white " + styles['title_2']}>Let’s hear from<br/>
-        //             the founders
-        //         </div>
-        //         <div style={{position:'absolute', bottom: 100, left: '24.5%'}}>
-        //             <img className={styles.circle + " " + styles.photo} src="images/homepage/spotlight/Melissa Lim@4x.png" alt="First slide"/>
-        //             <img className={styles.circle + " " + styles.ring} src="images/homepage/spotlight/Ring around pic.png" alt="Ring around pic"/>
-        //         </div>
-                
-        //     </div>
-        // </Block>
         <Block backgroundColor="bg_purple">
             <div className="w-100">
                 <div className="d-flex flex-column justify-content-center">
@@ -98,10 +85,14 @@ export default function FifthBlock() {
                         the founders
                     </div>
                 </div>
-                <CarouselItem speech={melissaSpeech} name="Melissa Lim" position="President"/>
-                {/* {data.forEach(item => {
-                    <CarouselItem speech={item.speech} name={item.name} position={item.position} key={item.key}/>
-                })} */}
+                <Carousel>
+                    {data.map((founder) => (
+                  
+                        <Carousel.Item>
+                            <CarouselItem speech={founder.speech} name={founder.name} position={founder.position} key={founder.key}/>
+                        </Carousel.Item>
+                    ))}
+                </Carousel>
                 
             </div>
         </Block>

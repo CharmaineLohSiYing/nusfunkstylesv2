@@ -6,3 +6,20 @@ $navbar-light-brand-color: rgba(252,252,252,0.75);
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
+
+
+.carousel-indicators {
+    margin-left: 0;
+    margin-right: 0;
+    bottom: -50px;
+}
+
+
+.carousel-indicators li { 
+    /* Over-ride carousel indicator*/
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    background-color:#fbb039;
+}
