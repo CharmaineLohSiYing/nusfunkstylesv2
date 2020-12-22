@@ -7,11 +7,11 @@ export default function ThirdBlock() {
         <Block backgroundColor="bg_orange">
                     <div className={styles['container']}>
                         <div className={styles['first_row']}>
-                            <img className={styles.locker} src="images/homepage/Locking Character 1.png" alt="Locking Character"/>
+                            <img className={styles.locker} src="assets/homepage/Locking Character 1.png" alt="Locking Character"/>
                             <div className={styles['small_text'] + " montserrat_bold text-center dark"}>Est. 2011</div>
-                            <img className={styles.popper} src="images/homepage/Popping Character 1.png" alt="Popping"/>
+                            <img className={styles.popper} src="assets/homepage/Popping Character 1.png" alt="Popping"/>
                         </div>
-                        <img className={styles.locker + " md"} src="images/homepage/Locking Character 1.png" alt="Locking Character"/>
+                        <img className={styles.locker + " md"} src="assets/homepage/Locking Character 1.png" alt="Locking Character"/>
                         <div className={styles['text']}>
                                 <div className={styles['small_text'] + " montserrat_bold text-center dark md"}>Est. 2011</div>
                                 <div className={styles['main_text'] + " montserrat_bold text-center white"}>
@@ -21,7 +21,7 @@ export default function ThirdBlock() {
                                 Locking x Popping
                                 </div>
                         </div>
-                        <img className={styles.popper + " md"} src="images/homepage/Popping Character 1.png" alt="Popping Character"/>
+                        <img className={styles.popper + " md"} src="assets/homepage/Popping Character 1.png" alt="Popping Character"/>
                     </div>
                 </Block>
     )

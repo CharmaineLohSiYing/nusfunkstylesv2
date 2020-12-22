@@ -1,9 +1,16 @@
 import React from 'react';
+import CommunityBlock from './CommunityBlock'
+import Instructors from './Instructors'
+import Committee from './Committee'
 
 const CommunityMain = () => {
     return (
         <div>
-            Community MAIN
+            <section>
+                <CommunityBlock/>
+                <Instructors/>
+                <Committee/>
+            </section>
         </div>
     )
 }

@@ -21,7 +21,7 @@ const data = [
 
 export default function FourthBlock() {
     return (
-        <Block imageBackground="images/homepage/Selfie.jpg" alt="Showcase">
+        <Block imageBackground="assets/homepage/Selfie.jpg" alt="Showcase">
             <div className={styles.web + " " + styles.text + " montserrat_regular"}>
                 {data.map(content => {
                     return (

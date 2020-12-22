@@ -4,7 +4,7 @@ import Block from '../common/Block';
 
 export default function SixthBlock() {
     return (
-        <Block imageBackground="images/homepage/Family.jpg" alt="Group Picture">
+        <Block imageBackground="assets/homepage/Family.jpg" alt="Group Picture">
             <div className={styles.text + " montserrat_bold"}>
                 Welcome to this family.
             </div>
