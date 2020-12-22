@@ -1,5 +1,4 @@
-import styles from './Homepage.module.css';
-import Block from '../common/Block';
+import React from 'react';
 import FirstBlock from './FirstBlock';
 import SecondBlock from './SecondBlock';
 import FourthBlock from './FourthBlock';
@@ -7,7 +6,7 @@ import ThirdBlock from './ThirdBlock';
 import FifthBlock from './fifthblock/FifthBlock';
 import SixthBlock from './SixthBlock';
 
-const Homepage = () => {
+const HomepageMain = () => {
     return (
         <div>
             <section>
@@ -22,4 +21,4 @@ const Homepage = () => {
     )
 }
 
-export default Homepage;
+export default HomepageMain;

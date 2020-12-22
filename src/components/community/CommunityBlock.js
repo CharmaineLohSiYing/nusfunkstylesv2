@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './FirstBlock.module.css';
+import styles from './CommunityBlock.module.css';
 
 const text = `A community of funk style dancers \n connecting through music and dance.`;
 
-export default function FirstBlock() {
+export default function CommunityBlock() {
     return (
         <div className={styles.container}>
             <video className="bg" src="/images/homepage/Homepage Video.mp4" autoPlay loop muted/>

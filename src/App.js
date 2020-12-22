@@ -1,19 +1,37 @@
+import React from "react";
 import './App.css';
 import Header from './components/header/Header'
-import Homepage from './components/homepage/Homepage'
+import Homepage from './components/homepage/HomepageMain'
+import Community from './components/community/CommunityMain'
 import Footer from './components/footer/Footer'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <Header/>
-      </header>
-      <main>
-        <Homepage/>
-      </main>
-      <Footer/>
-    </div>
+    <Router>
+        <div className="App">
+        <header>
+          <Header/>
+        </header>
+        <main>
+          <Switch>
+              <Route path="/community">
+                <Community />
+              </Route>
+              <Route path="/">
+                <Homepage/>
+              </Route>
+          </Switch>
+        </main>
+        <Footer/>
+        </div>
+    </Router>
+    
   );
 }
 
