@@ -18,15 +18,15 @@ export default function Instructor(props) {
         >
             <img className={styles.picture} src={"assets/community/photos/" + instructorData.name + "@4x.png"} alt=""/>
             <div className="text-center montserrat_bold pt-3">
-                <div className={"text-uppercase orange " + styles['sm-text']}>{instructorData.role}</div>
+                <div className={"text-uppercase orange " + styles['text_sm']}>{instructorData.role}</div>
                 <div className={"text-uppercase off_white " + styles.name}>{instructorData.name}</div>
                 <Collapse in={open}>
                     <div id="example-collapse-text" className={styles.info}>
                         <div className={"w-100 bg_dark " + styles.line}></div>
-                        <div className={"purple text-italic dark pt-2 pb-4 " + styles['md-text']}><em>“{instructorData.quote}”</em></div>
+                        <div className={"purple text-italic dark pt-2 pb-4 " + styles['text_md']}><em>“{instructorData.quote}”</em></div>
                         {
                             instructorData.facts.map(fact => (
-                                <div className={"text-left dark " + styles['sm-text']}>/ {fact}</div>
+                                <div className={"text-left dark " + styles['text_sm']}>/ {fact}</div>
                             ))
                         }
                     </div>

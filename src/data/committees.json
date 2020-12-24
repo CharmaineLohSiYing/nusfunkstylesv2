@@ -1,220 +1,38 @@
 [
     {
-        "start" : 13,
-        "end" : 14,
+        "start" : 20,
+        "end" : 21,
         "members" : [
             {
-                "name" : "Samuel Ng Aik Siong",
+                "name" : "Justin Gnoh Kit Peow",
                 "position" : "President"
             },
             {
-                "name" : "Sophie Seetoh Yijia",
+                "name" : "Jarryl Goh Zheng Ying",
                 "position" : "Vice-President"
             },
             {
-                "name" : "Lam Kie Loong",
+                "name" : "Teh Wen Jan",
                 "position" : "Dance Captain"
             },
             {
-                "name" : "Lim Zi Jie",
+                "name" : "Sabrina Tay Jia Xuan",
+                "position" : "Dance Captain"
+            },
+            {
+                "name" : "Quek Kaizer",
                 "position" : "Publicity"
             },
             {
-                "name" : "Teo Kai Ling",
+                "name" : "Loh Ying Xin",
                 "position" : "Treasurer"
             },
             {
-                "name" : "Daryl Ho",
-                "position" : "Secretary"
-            }
-        ]
-    },
-    {
-        "start" : 14,
-        "end" : 15,
-        "members" : [
-            {
-                "name" : "Ow Yong Jian Yu",
-                "position" : "President"
-            },
-            {
-                "name" : "Robert W. Santosa",
-                "position" : "Vice-President"
-            },
-            {
-                "name" : "Cheong Yuan Xiang",
-                "position" : "Dance Captain"
-            },
-            {
-                "name" : "Liu Wei Ran",
-                "position" : "Dance Captain"
-            },
-            {
-                "name" : "Ang Hui Ting",
-                "position" : "Publicity"
-            },
-            {
-                "name" : "Tan Ying Zhen, Samantha",
-                "position" : "Treasurer"
-            },
-            {
-                "name" : "Chew Yi Ting",
+                "name" : "Natalie Anjasari Gordon",
                 "position" : "Secretary"
             },
             {
-                "name" : "Nicholas Neo",
-                "position" : "Welfare & Logistics"
-            }
-        ]
-    },
-    {
-        "start" : 15,
-        "end" : 16,
-        "members" : [
-            {
-                "name" : "Ong Wei-Xiang Bryan",
-                "position" : "President"
-            },
-            {
-                "name" : "Gan Zi Hui",
-                "position" : "Vice-President"
-            },
-            {
-                "name" : "Sylvia Low Pei Ling",
-                "position" : "Dance Captain"
-            },
-            {
-                "name" : "Yap May Yi",
-                "position" : "Dance Captain"
-            },
-            {
-                "name" : "Lee Hui Jing Crystal",
-                "position" : "Publicity"
-            },
-            {
-                "name" : "Lim Jing Yi",
-                "position" : "Treasurer"
-            },
-            {
-                "name" : "Lim Si Yi",
-                "position" : "Secretary"
-            },
-            {
-                "name" : "Ow Shu Yu Sebastian",
-                "position" : "Welfare & Logistics"
-            }
-        ]
-    },
-    {
-        "start" : 16,
-        "end" : 17,
-        "members" : [
-            {
-                "name" : "Lim Wei Zhi",
-                "position" : "President"
-            },
-            {
-                "name" : "Dawn Yip",
-                "position" : "Vice-President"
-            },
-            {
-                "name" : "Nicholas Sie",
-                "position" : "Dance Captain"
-            },
-            {
-                "name" : "Alyssa Tan",
-                "position" : "Dance Captain"
-            },
-            {
-                "name" : "Neo Jack Yi",
-                "position" : "Publicity"
-            },
-            {
-                "name" : "Xu Kaiyan",
-                "position" : "Treasurer"
-            },
-            {
-                "name" : "Marcus Quek",
-                "position" : "Secretary"
-            },
-            {
-                "name" : "Loh Boon Shing",
-                "position" : "Welfare & Logistics"
-            }
-        ]
-    },
-    {
-        "start" : 17,
-        "end" : 18,
-        "members" : [
-            {
-                "name" : "(Stephen) Wong Chee Cheong",
-                "position" : "President"
-            },
-            {
-                "name" : "Ong Wei Sheng",
-                "position" : "Vice-President"
-            },
-            {
-                "name" : "Bradford Loh Tao",
-                "position" : "Dance Captain"
-            },
-            {
-                "name" : "Wee Jeslin",
-                "position" : "Dance Captain"
-            },
-            {
-                "name" : "Wong Zeng Feng",
-                "position" : "Publicity"
-            },
-            {
-                "name" : "Wang Jun Jie",
-                "position" : "Treasurer"
-            },
-            {
-                "name" : "Teo Qi Min",
-                "position" : "Secretary"
-            },
-            {
-                "name" : "Chew Chong Jin",
-                "position" : "Welfare & Logistics"
-            }
-        ]
-    },
-    {
-        "start" : 18,
-        "end" : 19,
-        "members" : [
-            {
-                "name" : "Fu Minyi",
-                "position" : "President"
-            },
-            {
-                "name" : "Lucas Choy",
-                "position" : "Vice-President"
-            },
-            {
-                "name" : "Ong Jun Ying",
-                "position" : "Dance Captain"
-            },
-            {
-                "name" : "Lim Shi Yun",
-                "position" : "Dance Captain"
-            },
-            {
-                "name" : "Jolyon Lim",
-                "position" : "Publicity"
-            },
-            {
-                "name" : "Wong Chi Khay",
-                "position" : "Treasurer"
-            },
-            {
-                "name" : "Tan Li Jie",
-                "position" : "Secretary"
-            },
-            {
-                "name" : "Clara Fun",
+                "name" : "Tan Yi Ling",
                 "position" : "Welfare & Logistics"
             }
         ]
@@ -258,40 +76,222 @@
         ]
     },
     {
-        "start" : 20,
-        "end" : 21,
+        "start" : 18,
+        "end" : 19,
         "members" : [
             {
-                "name" : "Justin Gnoh Kit Peow",
+                "name" : "Fu Minyi",
                 "position" : "President"
             },
             {
-                "name" : "Jarryl Goh Zheng Ying",
+                "name" : "Lucas Choy",
                 "position" : "Vice-President"
             },
             {
-                "name" : "Teh Wen Jan",
+                "name" : "Ong Jun Ying",
                 "position" : "Dance Captain"
             },
             {
-                "name" : "Sabrina Tay Jia Xuan",
+                "name" : "Lim Shi Yun",
                 "position" : "Dance Captain"
             },
             {
-                "name" : "Quek Kaizer",
+                "name" : "Jolyon Lim",
                 "position" : "Publicity"
             },
             {
-                "name" : "Loh Ying Xin",
+                "name" : "Wong Chi Khay",
                 "position" : "Treasurer"
             },
             {
-                "name" : "Natalie Anjasari Gordon",
+                "name" : "Tan Li Jie",
                 "position" : "Secretary"
             },
             {
-                "name" : "Tan Yi Ling",
+                "name" : "Clara Fun",
                 "position" : "Welfare & Logistics"
+            }
+        ]
+    },
+    {
+        "start" : 17,
+        "end" : 18,
+        "members" : [
+            {
+                "name" : "(Stephen) Wong Chee Cheong",
+                "position" : "President"
+            },
+            {
+                "name" : "Ong Wei Sheng",
+                "position" : "Vice-President"
+            },
+            {
+                "name" : "Bradford Loh Tao",
+                "position" : "Dance Captain"
+            },
+            {
+                "name" : "Wee Jeslin",
+                "position" : "Dance Captain"
+            },
+            {
+                "name" : "Wong Zeng Feng",
+                "position" : "Publicity"
+            },
+            {
+                "name" : "Wang Jun Jie",
+                "position" : "Treasurer"
+            },
+            {
+                "name" : "Teo Qi Min",
+                "position" : "Secretary"
+            },
+            {
+                "name" : "Chew Chong Jin",
+                "position" : "Welfare & Logistics"
+            }
+        ]
+    },
+    {
+        "start" : 16,
+        "end" : 17,
+        "members" : [
+            {
+                "name" : "Lim Wei Zhi",
+                "position" : "President"
+            },
+            {
+                "name" : "Dawn Yip",
+                "position" : "Vice-President"
+            },
+            {
+                "name" : "Nicholas Sie",
+                "position" : "Dance Captain"
+            },
+            {
+                "name" : "Alyssa Tan",
+                "position" : "Dance Captain"
+            },
+            {
+                "name" : "Neo Jack Yi",
+                "position" : "Publicity"
+            },
+            {
+                "name" : "Xu Kaiyan",
+                "position" : "Treasurer"
+            },
+            {
+                "name" : "Marcus Quek",
+                "position" : "Secretary"
+            },
+            {
+                "name" : "Loh Boon Shing",
+                "position" : "Welfare & Logistics"
+            }
+        ]
+    },
+    {
+        "start" : 15,
+        "end" : 16,
+        "members" : [
+            {
+                "name" : "Ong Wei-Xiang Bryan",
+                "position" : "President"
+            },
+            {
+                "name" : "Gan Zi Hui",
+                "position" : "Vice-President"
+            },
+            {
+                "name" : "Sylvia Low Pei Ling",
+                "position" : "Dance Captain"
+            },
+            {
+                "name" : "Yap May Yi",
+                "position" : "Dance Captain"
+            },
+            {
+                "name" : "Lee Hui Jing Crystal",
+                "position" : "Publicity"
+            },
+            {
+                "name" : "Lim Jing Yi",
+                "position" : "Treasurer"
+            },
+            {
+                "name" : "Lim Si Yi",
+                "position" : "Secretary"
+            },
+            {
+                "name" : "Ow Shu Yu Sebastian",
+                "position" : "Welfare & Logistics"
+            }
+        ]
+    },
+    {
+        "start" : 14,
+        "end" : 15,
+        "members" : [
+            {
+                "name" : "Ow Yong Jian Yu",
+                "position" : "President"
+            },
+            {
+                "name" : "Robert W. Santosa",
+                "position" : "Vice-President"
+            },
+            {
+                "name" : "Cheong Yuan Xiang",
+                "position" : "Dance Captain"
+            },
+            {
+                "name" : "Liu Wei Ran",
+                "position" : "Dance Captain"
+            },
+            {
+                "name" : "Ang Hui Ting",
+                "position" : "Publicity"
+            },
+            {
+                "name" : "Tan Ying Zhen, Samantha",
+                "position" : "Treasurer"
+            },
+            {
+                "name" : "Chew Yi Ting",
+                "position" : "Secretary"
+            },
+            {
+                "name" : "Nicholas Neo",
+                "position" : "Welfare & Logistics"
+            }
+        ]
+    },
+    {
+        "start" : 13,
+        "end" : 14,
+        "members" : [
+            {
+                "name" : "Samuel Ng Aik Siong",
+                "position" : "President"
+            },
+            {
+                "name" : "Sophie Seetoh Yijia",
+                "position" : "Vice-President"
+            },
+            {
+                "name" : "Lam Kie Loong",
+                "position" : "Dance Captain"
+            },
+            {
+                "name" : "Lim Zi Jie",
+                "position" : "Publicity"
+            },
+            {
+                "name" : "Teo Kai Ling",
+                "position" : "Treasurer"
+            },
+            {
+                "name" : "Daryl Ho",
+                "position" : "Secretary"
             }
         ]
     }

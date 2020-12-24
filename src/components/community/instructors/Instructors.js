@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import styles from './Instructors.module.css';
 import Block from '../../common/Block';
-import {Button, Collapse} from 'react-bootstrap'
 import instructors from '../../../data/instructors.json'
 import Instructor from './Instructor'
 

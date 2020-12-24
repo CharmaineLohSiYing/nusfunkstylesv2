@@ -1,6 +1,6 @@
 // Override default variables before the import
-$primary: red;
-$secondary: green;
+$primary: #4b2b70;
+$secondary: #fcb03a;
 $dark: #343a40;
 $navbar-light-brand-color: rgba(252,252,252,0.75);
 
@@ -22,4 +22,13 @@ $navbar-light-brand-color: rgba(252,252,252,0.75);
     height: 10px;
     margin: 0 8px;
     background-color:#fbb039;
+}
+
+#committee_carousel a {
+    top: -200px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 80px;
+    height: 80px;
 }
