@@ -1,0 +1,148 @@
+.title {
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .title {
+        font-size: 2rem;
+    }
+  
+}
+
+/* 
+.instructorintroheading{
+    position: relative;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 1vw;
+    color: #ffb03a;
+    left: 24%;
+    top: 50%;
+}
+
+.instructorintro{
+    position: relative;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 0.8vw;
+    color: white;
+    left: 18%;
+    top: 50%;
+
+}
+
+.hovcon {
+    position: relative;
+}
+
+.person {
+    position: absolute;
+    width: 23%;
+    height: auto;
+    left: 14.5%;
+    z-index: 1;
+    transition: .5s ease;
+}
+
+.hovcon:hover .person{
+    transform: translate(23%);
+
+}
+
+.ring {
+    position: relative;
+    width: 22%;
+    height: auto;
+    left: 19%;
+    z-index: 0;
+    opacity: 1;
+}
+
+.hovcon:hover .ring{
+    opacity: 0;
+
+}
+
+
+.instructorinfo {
+    position: relative;
+    width:73%;
+    height: auto;
+    left: -3%;
+    transition: .5s ease;
+    opacity: 0;
+    z-index: 0;
+}
+
+.hovcon:hover .instructorinfo{
+    opacity: 1;
+}
+
+.ofilter {
+    position: absolute;
+    width:24%;
+    height: auto;
+    left: 19.2%;
+    top: -2%;
+    opacity: 0%;
+    z-index: 3;
+}
+
+.hovcon:hover .ofilter{
+    opacity: 1;
+}
+
+.quote{
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 3vw;
+    color: #ffb03a;
+    left: 44%;
+    top: 15%;
+    z-index: 6;
+    opacity: 0%;
+}
+
+
+
+.hovcon:hover .quote{
+    opacity: 1;
+}
+
+
+.fact{
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 0.8vw;
+    color: black;
+    left: 45%;
+    top: 31%;
+    z-index: 6;
+    opacity: 0%;
+}
+
+
+.hovcon:hover .fact{
+    opacity: 1;
+}
+
+.fact2{
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 0.8vw;
+    color: black;
+    left: 45%;
+    top: 45%;
+    z-index: 6;
+    opacity: 0%;
+}
+
+.hovcon:hover .fact2{
+    opacity: 1;
+}
+
+ */

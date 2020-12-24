@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "Chunky (Ian)",
+        "role" : "Junior/ Senior Locking Instructor",
+        "quote" : "Be one with the rhythm",
+        "facts" : [
+            "I come from Chong Pang.", 
+            "I travel the world by bicycle.", 
+            "I am a “cher"]
+    },
+    {
+        "name" : "Robin",
+        "role" : "Junior/ Senior Popping Instructor",
+        "quote" : "The price of practice is always cheaper than the pain of regret.",
+        "facts" : [
+            "I love earth colours.", 
+            "I am serving the migrant workers in the frontline right now.", 
+            "I'm a dad :D"]
+    },
+    {
+        "name" : "Kai",
+        "role" : "Super Senior Locking Instructor",
+        "quote" : "Follow me on instagram @instagkai",
+        "facts" : [
+            " I am shy.",
+            "I love NUS Funk.",
+            "I represent We will be back, a Singapore dance crew. Please watch our videos on youtube."
+        ]
+    },
+    {
+        "name" : "Melise",
+        "role" : "Super Senior Popping Instructor",
+        "quote" : "Seek longevity in your craft!",
+        "facts" : [
+            "I wanted to get into poly no matter what my results were.",
+            "I searched on youtube: “poly, dance” and chose my school based on the dance club I saw online.",
+            "I randomly chose a course and thankfully I enjoyed and graduated from it."
+        ]
+    },
+    {
+        "name" : "Jordan",
+        "role" : "Super Senior Popping Instructor",
+        "quote" : "Keep it real and always stay grounded! Don’t cheat yourself!!",
+        "facts" : [
+            " 2020 marks my 10th year in Popping.",
+            "I love kpop and rap music.",
+            "Kobe Bryant is my biggest inspiration"
+        ]
+    }
+]

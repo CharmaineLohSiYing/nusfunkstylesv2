@@ -58,12 +58,20 @@
     color: #fcb03a
 }
 
+.purple {
+    color: #4b2b70;
+}
+
 .bg_orange {
     background-color: #fcb03a;
 }
 
 .bg_purple {
     background-color: #4b2b70;
+}
+
+.bg_dark {
+    background-color: #343a40;
 }
 
 

@@ -18,15 +18,15 @@ const Member = ({position, name}) => {
     )
 }
 
-export default function SecondBlock() {
+export default function Committee() {
     return (
         <Block imageBackground="assets/community/photos/Committee.jpg" alt="Committee Picture">
                    <div className={"w-75 over_bg center"}>
                        <div className={"text-center montserrat_bold white " + styles.title}>OUR FOUNDING COMMITTEE</div>
                        <div className={"montserrat_bold white " + styles.member}>
-                           {founders.map(founder => (
+                           {/* {founders.map(founder => (
                                <Member position={founder.role + ", " + founder.position} name={founder.name}/>
-                           ))}
+                           ))} */}
                             
                        </div>s
                    </div>
