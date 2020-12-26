@@ -1,3 +1,29 @@
-.text_xl {
-    font-size: 6rem
+.member {
+    padding-top: 5px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.year {
+    font-size: 3.5rem
+}
+
+.divider {
+    display: none;
+}
+
+@media only screen and (min-width: 450px) {
+    .member {
+        padding-top: 0px;
+        text-align: left;
+        flex-direction: row;
+    }
+
+    .divider {
+        display: block
+    }
+
+    .year {
+        font-size: 6rem
+    }
 }

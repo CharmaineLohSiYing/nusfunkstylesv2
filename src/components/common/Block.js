@@ -5,6 +5,7 @@ export default function Block(props) {
 
     const backgroundClasses = [styles.block];
     const contentClasses = [];
+    const imageClasses = [];
 
     if (!props.imageBackground){
         backgroundClasses.push(styles['container_padding']);
@@ -19,12 +20,18 @@ export default function Block(props) {
         } else {
             contentClasses.push(styles['non_padded_content'])
         }
+
+        if (props.resize){
+            imageClasses.push('bg_resize');
+        } else {
+            imageClasses.push('bg')
+        }
     }
     
     
     return (
         <div className={backgroundClasses.join(' ')}>
-            {props.imageBackground && <img className="bg" src={props.imageBackground} alt={props.alt}>
+            {props.imageBackground && <img className={imageClasses.join('')} src={props.imageBackground} alt={props.alt}>
             </img>}
             <div className={contentClasses.join(' ')}>
                 {props.children}

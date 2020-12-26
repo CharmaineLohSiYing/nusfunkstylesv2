@@ -10,11 +10,11 @@ import committees from '../../data/committees.json'
 
 const Member = ({position, name}) => {
     return (
-        <div className="w-100 d-flex justify-content-center">
+        <div className={"w-100 d-flex justify-content-center " + styles.member}>
             <div className="orange">
                 {position}
             </div>  
-            <div className="orange px-2">|</div>
+            <div className={"orange px-2 " + styles.divider}>|</div>
             <div className="white">
                 {name}
             </div>
@@ -35,7 +35,7 @@ export default function Committee() {
     }
 
     return (
-        <Block imageBackground="assets/community/photos/Committee.jpg" padding alt="Committee Picture">
+        <Block resize imageBackground="assets/community/photos/Committee.jpg" padding alt="Committee Picture">
             <div className={"d-flex flex-column"}>
                 <ButtonGroup className="align-self-center mb-4">
                     <Button variant="outline-secondary" active={displayFounders} className={"montserrat_bold"} onClick={chooseFounders}>Founders</Button>
@@ -63,7 +63,7 @@ export default function Committee() {
                                     {committees.map(committee => (
                                         <Carousel.Item>
                                             <div className="w-100">
-                                                <div className={"text-center " + styles['text_xl']}>
+                                                <div className={"text-center " + styles.year}>
                                                 {committee.start} | {committee.end}
                                                 </div>
                                                 {committee.members.map(member => (
