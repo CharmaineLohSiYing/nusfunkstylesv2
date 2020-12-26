@@ -32,7 +32,7 @@ export default function Instructors() {
         //         </div>
         //     </div>
         // </Block>
-        <Block backgroundColor="bg_purple">
+        <Block backgroundColor="bg_dark_purple">
             <div className={styles.title + " text-center montserrat_bold white"}>Instructors</div>
             <div className="d-flex flex-wrap justify-content-between pt-4">
                 {
