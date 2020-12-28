@@ -7,6 +7,13 @@ $navbar-light-brand-color: rgba(252,252,252,0.75);
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 
+a {
+    color: white
+}
+
+a:hover {
+    color: #fcb03a;
+}
 
 .carousel-indicators {
     margin-left: 0;
