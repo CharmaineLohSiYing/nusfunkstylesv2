@@ -1,4 +1,20 @@
 .artwork {
-    width: 30%;
+    width: 80%;
     height: auto;
+}
+
+@media only screen and (min-width: 450px) {
+    .artwork {
+        width: 55%;
+        height: auto;
+    }
+    
+}
+
+  
+@media only screen and (min-width: 900px) {
+    .artwork {
+        width: 30%;
+        height: auto;
+    }
 }

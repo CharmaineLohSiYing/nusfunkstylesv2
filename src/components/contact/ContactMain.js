@@ -18,7 +18,6 @@ const ContactMain = () => {
                     </div>
                     
                 </Block>
-                
             </section>
         </div>
     )
