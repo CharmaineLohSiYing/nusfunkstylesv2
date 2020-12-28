@@ -1,0 +1,37 @@
+
+.container {
+    margin: 30px 0;
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col_sm {
+    flex: 2
+}
+
+.col_lg {
+    flex: 3
+}
+
+.pic_lg {
+    flex: 5;
+}
+
+
+.subtitle {
+    flex: 2;
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+
+.pic {
+    padding: 0 10px;
+    width: 100%;
+    height: auto;
+}

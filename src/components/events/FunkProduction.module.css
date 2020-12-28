@@ -1,0 +1,9 @@
+.image {
+    width: 50%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+}
