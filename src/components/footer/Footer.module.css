@@ -1,3 +1,4 @@
+
 .logo {
     height: 24px;
     width: auto;
@@ -5,8 +6,6 @@
 
 
 .row {
-    display: flex;
-    align-items: center;  
     width: 80%;
     max-width: 300px;  
     min-width: 250px;

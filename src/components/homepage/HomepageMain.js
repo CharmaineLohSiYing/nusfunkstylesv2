@@ -1,4 +1,3 @@
-import React from 'react';
 import FirstBlock from './FirstBlock';
 import SecondBlock from './SecondBlock';
 import FourthBlock from './FourthBlock';

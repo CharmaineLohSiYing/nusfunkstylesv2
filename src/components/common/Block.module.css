@@ -1,19 +1,14 @@
-.block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
 
-.container_padding {
+
+.container-padding {
     padding: 60px 20px;
 }
 
-.non_padded_content {
+.non-padded-content {
     width: 90%;
 }
 
-.padded_content {
+.padded-content {
     position: absolute;
     top: 0px;
     left: 0px;

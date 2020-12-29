@@ -1,4 +1,3 @@
-import React from 'react';
 import Block from '../common/Block';
 import UpcomingEvents from './UpcomingEvents';
 import Recap from './recap/Recap';

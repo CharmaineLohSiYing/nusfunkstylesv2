@@ -10,11 +10,8 @@ img {
 
 
 @media only screen and (min-width: 500px) {
-    .header {
-        height: 96px
-    }
 
     img {
-        height: 72px
+        height: 64px
     }
 } 

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './SecondBlock.module.css';
 import Block from '../common/Block';
 
@@ -7,18 +6,18 @@ const secondBlockText2 = `A community of funk style dancers connecting through m
 
 export default function SecondBlock() {
     return (
-        <Block backgroundColor="bg_purple">
+        <Block backgroundColor="bg-purple">
                     <div className={styles.container}>
-                        <div className={styles['text_portion_a']}>
-                            <h3 className={"centered_text montserrat_semi_bold white text-left"}>
+                        <div className={styles['text-portion-a'] + " text-lg"}>
+                            <div className={"centered-text montserrat-semi-bold white text-left text-xl"}>
                             {secondBlockText2}
-                            </h3>
+                            </div>
                         </div>
-                        <div className={styles.separator + " bg_orange"}></div>
-                        <div className={styles['text_portion_b']}>
-                            <h5 className={"centered_text montserrat_semi_bold orange text-right"}>
+                        <div className={styles.separator + " bg-orange"}></div>
+                        <div className={styles['text-portion-b']}>
+                            <div className={"centered-text montserrat-semi-bold orange text-right"}>
                             {secondBlockText1}
-                            </h5>
+                            </div>
                         </div>
                         
                     </div>

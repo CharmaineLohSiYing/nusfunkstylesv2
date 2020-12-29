@@ -1,4 +1,3 @@
-import React from 'react';
 import CommunityBlock from './CommunityBlock'
 import Instructors from './instructors/Instructors'
 import Committee from './Committee'

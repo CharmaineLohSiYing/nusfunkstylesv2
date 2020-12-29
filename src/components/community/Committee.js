@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import styles from './Committee.module.css';
 import Block from '../common/Block';
 import Carousel from 'react-bootstrap/Carousel'
@@ -35,22 +35,17 @@ export default function Committee() {
     }
 
     return (
-        <Block resize imageBackground="assets/community/photos/Committee.jpg" padding alt="Committee Picture">
+        <Block resize={"bg-resize-lg"} imageBackground="assets/community/photos/Committee.jpg" padding alt="Committee Picture">
             <div className={"d-flex flex-column"}>
                 <ButtonGroup className="align-self-center mb-4">
-                    <Button variant="outline-secondary" active={displayFounders} className={"montserrat_bold"} onClick={chooseFounders}>Founders</Button>
-                    <Button variant="outline-secondary" active={!displayFounders} className={"montserrat_bold"} onClick={chooseCommittees}>Committees</Button>
+                    <Button variant="outline-secondary" active={displayFounders} className={"montserrat-bold"} onClick={chooseFounders}>Founders</Button>
+                    <Button variant="outline-secondary" active={!displayFounders} className={"montserrat-bold"} onClick={chooseCommittees}>Committees</Button>
                 </ButtonGroup>
                 <div className="center w-75">
-                    <div className={"text-uppercase text-center montserrat_bold white pt-2 " + styles.title}>
-                        {
-                            displayFounders ? "Our Founding Committee" : ""
-                        }
-                    </div>
                     {
                         displayFounders ? 
                         (
-                            <div className={"montserrat_bold white pt-4 " + styles.member}>
+                            <div className={"montserrat-bold white pt-4 text-center " + styles.member}>
                                 {founders.map(founder => (
                                     <Member position={founder.role + ", " + founder.position} name={founder.name}/>
                                 ))}
@@ -58,12 +53,12 @@ export default function Committee() {
                         )
                         :
                         (
-                            <div className={"w-100 montserrat_bold white"}>
-                                <Carousel id="committee_carousel" indicators={false}>
+                            <div className={"w-100 montserrat-bold white"}>
+                                <Carousel id="committee-carousel" indicators={false}>
                                     {committees.map(committee => (
                                         <Carousel.Item>
                                             <div className="w-100">
-                                                <div className={"text-center " + styles.year}>
+                                                <div className={"text-center text-xxxxl"}>
                                                 {committee.start} | {committee.end}
                                                 </div>
                                                 {committee.members.map(member => (

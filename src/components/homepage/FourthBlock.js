@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './FourthBlock.module.css';
 import Block from '../common/Block';
 import Carousel from 'react-bootstrap/Carousel'
@@ -21,25 +20,25 @@ const data = [
 
 export default function FourthBlock() {
     return (
-        <Block imageBackground="assets/homepage/Selfie.jpg" alt="Showcase">
-            <div className={styles.web + " " + styles.text + " montserrat_regular"}>
+        <Block padding resize="bg-resize-sm" imageBackground="assets/homepage/Selfie.jpg" alt="Showcase">
+            <div className={styles.web + " " + styles.text + " text-left position-absolute text-left white montserrat-regular"}>
                 {data.map(content => {
                     return (
                         <>
-                        <div className={styles.subtitle + " orange"}>{content.title}</div>
+                        <div className={"font-weight-bold text-xl orange"}>{content.title}</div>
                         <div>{content.text}</div>
                         </>
                     )
                 })}
             </div>
-            <div className={styles['mobile_bg'] + " center"}/>
+            <div className={styles['mobile-bg'] + " center"}/>
             <div className={styles.mobile + " center"}>
                 <Carousel indicators={false}>
                     {data.map(content => (
                         <Carousel.Item>
-                            <div className="montserrat_regular w-100 d-flex text-center justify-content-center flex-column align-items-center">
-                                <h5 className={styles['mobile_subtitle'] + " orange"}>{content.title}</h5>
-                                <h6 className={styles['mobile_text']}>{content.text}</h6>
+                            <div className="montserrat-regular w-100 d-flex text-center justify-content-center flex-column align-items-center">
+                                <div className="text-xl font-weight-bold orange">{content.title}</div>
+                                <div className="white">{content.text}</div>
                             </div>
                         </Carousel.Item>
                         

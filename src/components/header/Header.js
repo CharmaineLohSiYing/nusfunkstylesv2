@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Header.module.css'
 import {Navbar, Nav} from 'react-bootstrap'
 import { FiMenu } from "react-icons/fi";
@@ -8,13 +7,13 @@ import {
 
 const Header = () => {
 
-    const navTextClasses = "px-lg-4 px-md-4 off_white montserrat_semi_bold " + styles.navbartext;
+    const navTextClasses = "px-lg-4 px-md-4 off-white montserrat-semi-bold " + styles.navbartext;
 
     return (
         <Navbar bg="dark" expand="md" className={styles.header}>
             <Navbar.Brand href="#home"><img src={"/assets/Logo.png"} alt="logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
-                <FiMenu className="off_white" size={24}/>
+                <FiMenu className="off-white" size={24}/>
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                 <Nav>

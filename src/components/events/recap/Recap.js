@@ -1,4 +1,3 @@
-import React from 'react';
 import Block from '../../common/Block';
 import styles from './Recap.module.css'
 import Collage from './Collage'
@@ -73,7 +72,7 @@ const data = [
 const YearRecap = () => {
     return (
         <>
-            <Block backgroundColor="bg_orange">
+            <Block backgroundColor="bg-orange">
                 <div className="d-flex flex-column align-items-center">
                     <img className={styles.artwork} src="assets/events/artwork/Artwork with words@4x.png" alt="A Year in NUS Funkstyles"/>
                 </div>

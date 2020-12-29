@@ -1,11 +1,6 @@
 .member {
     padding-top: 5px;
-    text-align: center;
     flex-direction: column;
-}
-
-.year {
-    font-size: 3.5rem
 }
 
 .divider {
@@ -15,7 +10,6 @@
 @media only screen and (min-width: 450px) {
     .member {
         padding-top: 0px;
-        text-align: left;
         flex-direction: row;
     }
 
@@ -23,7 +17,4 @@
         display: block
     }
 
-    .year {
-        font-size: 6rem
-    }
 }

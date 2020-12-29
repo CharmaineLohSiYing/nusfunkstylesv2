@@ -4,15 +4,28 @@ $secondary: #fcb03a;
 $dark: #343a40;
 $navbar-light-brand-color: rgba(252,252,252,0.75);
 
+
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 
+
 a {
-    color: white
+    color: white;
+    padding-top: 0px;
 }
 
 a:hover {
     color: #fcb03a;
+}
+
+a.active{
+    color: #fcb03a !important;
+}
+
+@media only screen and (max-width: 767px) {
+    a {
+        padding-top: 10px;
+    }
 }
 
 .carousel-indicators {
@@ -25,13 +38,14 @@ a:hover {
 .carousel-indicators li { 
     /* Over-ride carousel indicator*/
     border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    margin: 0 8px;
+    width: 15px;
+    height: 15px;
+    margin: 0px 8px;
     background-color:#fbb039;
 }
 
-#committee_carousel a {
+
+#committee-carousel a {
     top: -200px;
 }
 

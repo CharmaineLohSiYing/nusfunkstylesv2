@@ -5,28 +5,39 @@
     padding: 0;
     }
 
+html, body, #root, .App {
+    height: 100%
+}
+
+.App {
+    display: flex; 
+    flex-direction: column;
+}
+
+
+
 /*** TEXT ***/
 
-.montserrat_regular {
+.montserrat-regular {
     font-family: 'Montserrat', sans-serif;
     font-weight:400;
 }
 
-.montserrat_semi_bold {
+.montserrat-semi-bold {
     font-family: 'Montserrat', sans-serif;
     font-weight:600;
 }
 
-.montserrat_bold {
+.montserrat-bold {
     font-family: 'Montserrat', sans-serif;
     font-weight:700;
 }
 
-.new_line {
+.new-line {
     white-space: pre-line;
 }
 
-.centered_text {
+.centered-text {
     text-align: center;
     overflow-wrap: normal;
 }
@@ -45,7 +56,7 @@
     color: #343a40;
 }
 
-.off_white {
+.off-white {
     color: rgba(252,252,252,0.75)
 }
 
@@ -61,30 +72,25 @@
     color: #4b2b70;
 }
 
-.bg_orange {
+.bg-orange {
     background-color: #fcb03a;
 }
 
-.bg_purple_translucent {
+.bg-purple-translucent {
     background-color: #4b2b70bb;
 }
 
-
-.bg_purple {
-    background-color: #4b2b70;
-}
-
-.bg_dark_purple {
+.bg-purple {
     background-color: #2c0657
 }
 
-.bg_dark {
+.bg {
     background-color: #343a40;
 }
 
 
-.active {
-    color: #fcb03a;
+.active a{
+    color: #fcb03a !important;
 }
 
 
@@ -105,14 +111,15 @@
     z-index: -1;
 }
 
-.bg_resize {
-    width: 100%;
-    height: auto;
-    z-index: -1;
-}
 
 @media only screen and (max-width: 899px) {
-    .bg_resize {
+
+    .bg-resize-sm {
+        height: 400px;
+        object-fit: cover;
+    }
+    
+    .bg-resize-lg {
         height: 750px;
         object-fit: cover;
     }
@@ -120,8 +127,54 @@
 
 
 
-.over_bg {
+.over-bg {
     position: absolute;
 }
 
 
+/** FONT SIZES **/
+.text-xs {
+    font-size: calc(1rem + 1vw) 
+}
+
+.text-sm {
+    font-size: 0.8rem
+}
+
+.text-lg {
+    font-size: calc(1rem + 0.5vw) 
+}
+
+.text-xl {
+    font-size: calc(1rem + 1vw) 
+}
+
+.text-xxl {
+    font-size: 6vw
+}
+
+.text-xxxl {
+    font-size: 7vw
+}
+
+.text-xxxxl {
+    font-size: 3.5rem
+}
+
+
+@media only screen and (min-width: 500px) {
+
+    
+    .text-xxl {
+        font-size: 3vw
+    }
+
+    .text-xxxl {
+        font-size: 4vw
+    }
+
+    .text-xxxxl {
+        font-size: 6rem
+    }
+    
+  }
