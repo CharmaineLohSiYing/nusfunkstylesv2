@@ -7,7 +7,7 @@ const ContactMain = () => {
             <section>
                 <Block resize imageBackground="assets/contact/CONTACT EDITED.jpg" padding alt="Background image">
                     <div className="w-75 center text-center montserrat-bold white">
-                        <div className={styles.title + " text-xxxl"}>Haven't seen enough?</div>
+                        <div className={styles.title + " text-xxl"}>Haven't seen enough?</div>
                         <a href="https://linktr.ee/nusfunk" target = "-blank" rel = "noopener noreferrer">
                             <img src="assets/contact/linktree icon@4x.png" alt="Linktree Icon"/>
                             <div>Linktree</div>

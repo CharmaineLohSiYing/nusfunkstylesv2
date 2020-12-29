@@ -1,7 +1,13 @@
 
 
 .container-padding {
-    padding: 60px 20px;
+    padding: 30px 20px;
+}
+
+@media only screen and (min-width: 500px) {
+    .container-padding {
+        padding: 60px 20px;
+    }
 }
 
 .non-padded-content {

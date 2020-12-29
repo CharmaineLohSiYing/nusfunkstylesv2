@@ -109,19 +109,18 @@ html, body, #root, .App {
     width: 100%;
     height: auto;
     z-index: -1;
+    object-fit: cover;
 }
 
 
 @media only screen and (max-width: 899px) {
 
     .bg-resize-sm {
-        height: 400px;
-        object-fit: cover;
+        height: 350px;
     }
     
     .bg-resize-lg {
-        height: 750px;
-        object-fit: cover;
+        height: 680px;
     }
 }
 

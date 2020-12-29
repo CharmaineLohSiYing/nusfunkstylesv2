@@ -6,14 +6,5 @@
 
 
 .row {
-    width: 80%;
-    max-width: 300px;  
-    min-width: 250px;
+    width: 250px
 }
-
-@media only screen and (min-width: 500px) {
-    .row {
-        width: 40%;
-    }
-  }
-

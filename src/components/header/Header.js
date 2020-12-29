@@ -1,5 +1,6 @@
 import styles from './Header.module.css'
-import {Navbar, Nav} from 'react-bootstrap'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 import { FiMenu } from "react-icons/fi";
 import {
     NavLink
@@ -16,7 +17,7 @@ const Header = () => {
                 <FiMenu className="off-white" size={24}/>
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                <Nav>
+                <Nav defaultActiveKey="/home">
                 <NavLink
                     to="/home"
                     className={navTextClasses}

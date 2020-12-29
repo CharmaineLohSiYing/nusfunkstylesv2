@@ -11,7 +11,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
 
 
@@ -24,6 +25,9 @@ function App() {
           </header>
           <main>
             <Switch>
+                <Route path="/home">
+                  <Homepage/>
+                </Route>
                 <Route path="/community">
                   <Community />
                 </Route>
@@ -34,7 +38,7 @@ function App() {
                   <ContactMain/>
                 </Route>
                 <Route path="/">
-                  <Homepage/>
+                  <Redirect to="/home" />
                 </Route>
             </Switch>
           </main>

@@ -1,4 +1,13 @@
 .title {
     opacity: 0.9;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+
+
+@media only screen and (min-width: 500px) {
+    .title {
+        padding-bottom: 40px;
+    }
+    
 }
