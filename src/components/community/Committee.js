@@ -37,11 +37,11 @@ export default function Committee() {
     return (
         <Block resize={"bg-resize-lg"} imageBackground="assets/community/photos/Committee.jpg" padding alt="Committee Picture">
             <div className={"d-flex flex-column"}>
-                <ButtonGroup className="align-self-center mb-4">
-                    <Button variant="outline-secondary" active={displayFounders} className={"montserrat-bold"} onClick={chooseFounders}>Founders</Button>
-                    <Button variant="outline-secondary" active={!displayFounders} className={"montserrat-bold"} onClick={chooseCommittees}>Committees</Button>
-                </ButtonGroup>
-                <div className="center w-75">
+                <div className="d-flex flex-column justify-content-center center w-75">
+                    <ButtonGroup className={"align-self-center pb-4 "}>
+                        <Button variant="outline-secondary" active={displayFounders} className={"montserrat-bold"} onClick={chooseFounders}>Founders</Button>
+                        <Button variant="outline-secondary" active={!displayFounders} className={"montserrat-bold"} onClick={chooseCommittees}>Committees</Button>
+                    </ButtonGroup>
                     {
                         displayFounders ? 
                         (
