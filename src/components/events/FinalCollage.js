@@ -13,10 +13,10 @@ const baseAddressEnd= " EXTERNAL EVENTS.jpg"
 
 const Row = (props) => {
     return (
-        <div className="row">
+        <div className="w-100 row m-0">
             {
                 props.arr.map(image => (
-                    <div className="col p-0">
+                    <div className="col p-0" key={image}>
                         <img className={styles.image} src={baseAddressStart + image + baseAddressEnd} alt={"External event " + image}/>
                     </div>
                 ))

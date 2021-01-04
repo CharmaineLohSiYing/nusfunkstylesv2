@@ -20,8 +20,8 @@ const Collage = (props) => {
                          <div className={"bg-purple-translucent center " + styles.information}>
                             <div className={"white center " + styles['info-content']}>
                                 {
-                                    props.information.map((text) => (
-                                        <div>
+                                    props.information.map((text, index) => (
+                                        <div key={index}>
                                         {text}
                                         </div>
                                     ))

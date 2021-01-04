@@ -15,8 +15,8 @@ export default function FifthBlock() {
                 </div>
                 <Carousel controls={false}>
                     {founders.map((founder) => (
-                        <Carousel.Item>
-                            <CarouselItem speech={founder.speech} name={founder.name} position={founder.position} key={founder.name}/>
+                        <Carousel.Item key={founder.name}>
+                            <CarouselItem speech={founder.speech} name={founder.name} position={founder.position}/>
                         </Carousel.Item>
                     ))}
                 </Carousel>

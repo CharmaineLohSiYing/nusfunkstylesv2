@@ -26,7 +26,7 @@ export default function Instructor(props) {
                         <div className={"purple text-italic dark pt-2 pb-4"}><em>“{instructorData.quote}”</em></div>
                         {
                             instructorData.facts.map(fact => (
-                                <div className={"text-left dark text-sm"}>/ {fact}</div>
+                                <div key={fact} className={"text-left dark text-sm"}>/ {fact}</div>
                             ))
                         }
                     </div>

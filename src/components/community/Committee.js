@@ -47,7 +47,7 @@ export default function Committee() {
                         (
                             <div className={"montserrat-bold white pt-4 text-center " + styles.member}>
                                 {founders.map(founder => (
-                                    <Member position={founder.role + ", " + founder.position} name={founder.name}/>
+                                    <Member key={founder.name} position={founder.role + ", " + founder.position} name={founder.name}/>
                                 ))}
                             </div>
                         )
@@ -56,13 +56,13 @@ export default function Committee() {
                             <div className={"w-100 montserrat-bold white"}>
                                 <Carousel id="committee-carousel" indicators={false}>
                                     {committees.map(committee => (
-                                        <Carousel.Item>
+                                        <Carousel.Item key={committee.start}>
                                             <div className="w-100">
                                                 <div className={"text-center text-xxxxl"}>
                                                 {committee.start} | {committee.end}
                                                 </div>
                                                 {committee.members.map(member => (
-                                                    <Member position={member.position} name={member.name}/>
+                                                    <Member key={member.name} position={member.position} name={member.name}/>
                                                 ))}
                                             </div>
                                         </Carousel.Item>

@@ -24,10 +24,10 @@ export default function FourthBlock() {
             <div className={styles.web + " " + styles.text + " text-left position-absolute text-left white montserrat-regular"}>
                 {data.map(content => {
                     return (
-                        <>
+                        <div key={content.title}>
                         <div className={"font-weight-bold text-xl orange"}>{content.title}</div>
                         <div>{content.text}</div>
-                        </>
+                        </div>
                     )
                 })}
             </div>
@@ -35,7 +35,7 @@ export default function FourthBlock() {
             <div className={styles.mobile + " center"}>
                 <Carousel indicators={false}>
                     {data.map(content => (
-                        <Carousel.Item>
+                        <Carousel.Item key={content.title}>
                             <div className="montserrat-regular w-100 d-flex text-center justify-content-center flex-column align-items-center">
                                 <div className="text-xl font-weight-bold orange">{content.title}</div>
                                 <div className="white">{content.text}</div>

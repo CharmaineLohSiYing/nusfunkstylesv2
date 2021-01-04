@@ -13,7 +13,7 @@ export default function Instructors() {
             <div className="d-flex flex-wrap justify-content-center pt-4">
                 {
                     instructors.map(ins => (
-                        <Instructor instructorData={ins}/>
+                        <Instructor key={ins.name} instructorData={ins}/>
                     ))
                 }
             </div>
