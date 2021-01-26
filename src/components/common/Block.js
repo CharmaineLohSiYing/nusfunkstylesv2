@@ -30,7 +30,12 @@ export default function Block(props) {
     
     return (
         <div className={backgroundClasses.join(' ')}>
-            {props.imageBackground && <img className={imageClasses.join(' ')} src={props.imageBackground} alt={props.alt}>
+            {props.imageBackground && <img 
+                className={imageClasses.join(' ')} 
+                src={props.imageBackground} 
+                srcSet={props.srcSet}
+                sizes={props.sizes}
+                alt={props.alt}>
             </img>}
             <div className={contentClasses.join(' ')}>
                 {props.children}
