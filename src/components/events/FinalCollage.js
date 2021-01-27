@@ -1,4 +1,7 @@
 import styles from './FinaleCollage.module.css'
+import LazyLoad from "react-lazyload";
+
+
 
 const firstRow = [
     12, 11, 3, 4, 5
@@ -17,8 +20,11 @@ const Row = (props) => {
             {
                 props.arr.map(image => (
                     <div className="col p-0" key={image}>
-                        <img className={styles.image} src={baseAddressStart + image + baseAddressEnd} alt={"External event " + image}/>
+                        <LazyLoad>
+                            <img className={styles.image} src={baseAddressStart + image + baseAddressEnd} alt={"External event " + image}/>
+                        </LazyLoad>
                     </div>
+                    
                 ))
             }
         </div>

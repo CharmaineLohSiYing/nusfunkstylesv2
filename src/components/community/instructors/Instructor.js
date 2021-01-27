@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import styles from './Instructor.module.css';
 import {Button, Collapse} from 'react-bootstrap'
+import LazyLoad from "react-lazyload";
 
 
 export default function Instructor(props) {
@@ -16,7 +17,9 @@ export default function Instructor(props) {
             aria-controls="example-collapse-text"
             aria-expanded={open}
         >
-            <img className={styles.picture} src={"assets/community/photos/" + instructorData.name + "@4x.png"} alt=""/>
+            <LazyLoad>
+                <img className={styles.picture} src={"assets/community/photos/" + instructorData.name + "@4x.png"} alt=""/>
+            </LazyLoad>
             <div className="text-center montserrat-bold pt-3">
                 <div className={"text-uppercase orange"}>{instructorData.role}</div>
                 <div className={"text-uppercase off-white " + styles.name}>{instructorData.name}</div>

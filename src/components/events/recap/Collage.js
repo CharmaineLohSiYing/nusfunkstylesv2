@@ -1,5 +1,7 @@
 import Block from '../../common/Block';
 import styles from './Collage.module.css'
+import LazyLoad from "react-lazyload";
+
 
 const Collage = (props) => {
 
@@ -16,7 +18,9 @@ const Collage = (props) => {
                         {props.subtitle}
                     </div>
                     <div className={styles['info-container']}>
-                         <img className={styles.pic + " " + styles['pic-lg'] } src={baseAddress + props.main} alt={props.main}/>
+                        <LazyLoad>
+                            <img className={styles.pic + " " + styles['pic-lg'] } src={baseAddress + props.main} alt={props.main}/>
+                        </LazyLoad>
                          <div className={"bg-purple-translucent center " + styles.information}>
                             <div className={"white center " + styles['info-content']}>
                                 {
