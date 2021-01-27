@@ -1,8 +1,8 @@
-import styles from './FirstBlock.module.css';
+import styles from './FirstVideo.module.css';
 
 const text = `A community of funk style dancers \n connecting through music and dance.`;
 
-export default function FirstBlock() {
+export default function FirstVideo() {
     return (
         <div className={styles.container}>
             <video className="bg" src="/assets/homepage/Homepage Video.mp4" autoPlay loop muted={true}/>

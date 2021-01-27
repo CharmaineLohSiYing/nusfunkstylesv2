@@ -1,4 +1,4 @@
-import styles from './SecondBlock.module.css';
+import styles from './Introduction.module.css';
 import Block from '../common/Block';
 
 

@@ -1,4 +1,4 @@
-import styles from './ThirdBlock.module.css'
+import styles from './Cartoons.module.css'
 import Block from '../common/Block'
 import ScrollAnimation from 'react-animate-on-scroll';
 

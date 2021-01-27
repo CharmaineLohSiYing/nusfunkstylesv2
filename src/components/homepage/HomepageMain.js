@@ -1,10 +1,10 @@
 import {useEffect, useState} from 'react'
-import FirstBlock from './FirstBlock';
-import SecondBlock from './SecondBlock';
-import FourthBlock from './FourthBlock';
-import ThirdBlock from './ThirdBlock';
-import FifthBlock from './fifthblock/FifthBlock';
-import SixthBlock from './SixthBlock';
+import FirstVideo from './FirstVideo';
+import Introduction from './Introduction'
+import Cartoons from './Cartoons'
+import Mission from './Mission'
+import Founders from './founders/Founders'
+import Welcome from './Welcome'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 
@@ -24,12 +24,12 @@ const HomepageMain = () => {
     return (
         <div>
             <section>
-                <FirstBlock/>
-                <SecondBlock/>
-                <ThirdBlock/>
-                <FourthBlock/>
-                <FifthBlock/>
-                <SixthBlock/>
+                <FirstVideo/>
+                <Introduction/>
+                <Cartoons/>
+                <Mission/>
+                <Founders/>
+                <Welcome/>
                 <Modal show={showModal} onHide={handleClose}>
                     <Modal.Header closeButton>
                     <Modal.Title>Join Us</Modal.Title>

@@ -34,7 +34,6 @@ export default function Block(props) {
                 className={imageClasses.join(' ')} 
                 src={props.imageBackground} 
                 srcSet={props.srcSet}
-                sizes={props.sizes}
                 alt={props.alt}>
             </img>}
             <div className={contentClasses.join(' ')}>

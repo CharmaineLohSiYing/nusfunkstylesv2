@@ -1,4 +1,4 @@
-import styles from './FourthBlock.module.css';
+import styles from './Mission.module.css';
 import Block from '../common/Block';
 import Carousel from 'react-bootstrap/Carousel'
 
@@ -20,7 +20,7 @@ const data = [
 
 export default function FourthBlock() {
     return (
-        <Block padding resize="bg-resize-sm" imageBackground="assets/homepage/Selfie.jpg" alt="Showcase">
+        <Block padding resize="bg-resize-sm" imageBackground="assets/homepage/Selfie.jpg" srcSet="assets/homepage/Selfie_small.jpg 816w, assets/homepage/Selfie.jpg 1632w" alt="Showcase">
             <div className={styles.web + " " + styles.text + " text-left position-absolute text-left white montserrat-regular"}>
                 {data.map(content => {
                     return (
