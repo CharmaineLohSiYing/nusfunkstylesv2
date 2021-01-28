@@ -17,9 +17,9 @@ export default function Instructor(props) {
             aria-controls="example-collapse-text"
             aria-expanded={open}
         >
-            <LazyLoad>
-                <img className={styles.picture} src={"assets/community/photos/" + instructorData.name + "@4x.png"} alt=""/>
-            </LazyLoad>
+            <div>
+                <img loading="lazy" className={styles.picture} src={"assets/community/photos/" + instructorData.name + "@4x.png"} alt=""/>
+            </div>
             <div className="text-center montserrat-bold pt-3">
                 <div className={"text-uppercase orange"}>{instructorData.role}</div>
                 <div className={"text-uppercase off-white " + styles.name}>{instructorData.name}</div>

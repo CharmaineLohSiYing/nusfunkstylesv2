@@ -18,9 +18,7 @@ const Collage = (props) => {
                         {props.subtitle}
                     </div>
                     <div className={styles['info-container']}>
-                        <LazyLoad>
-                            <img className={styles.pic + " " + styles['pic-lg'] } src={baseAddress + props.main} alt={props.main}/>
-                        </LazyLoad>
+                        <img loading="lazy" className={styles.pic + " " + styles['pic-lg'] } src={baseAddress + props.main} alt={props.main}/>
                          <div className={"bg-purple-translucent center " + styles.information}>
                             <div className={"white center " + styles['info-content']}>
                                 {
@@ -36,8 +34,8 @@ const Collage = (props) => {
                    
                 </div>
                 <div className={styles.col + " " + styles['col-sm']}>
-                    <img className={styles.pic + " " + styles['pic-sm']} src={baseAddress + props.firstSmall} alt={props.firstSmall}/>
-                    <img className={styles.pic + " " + styles['pic-sm']} src={baseAddress + props.secondSmall} alt={props.secondSmall}/>
+                    <img loading="lazy" className={styles.pic + " " + styles['pic-sm']} src={baseAddress + props.firstSmall} alt={props.firstSmall}/>
+                    <img loading="lazy" className={styles.pic + " " + styles['pic-sm']} src={baseAddress + props.secondSmall} alt={props.secondSmall}/>
                 </div>
             </div>
         </Block>
