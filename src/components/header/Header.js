@@ -23,7 +23,7 @@ const Header = () => {
 
     return (
         <Navbar bg="dark" expand="md" expanded={navExpanded} className={styles.header}>
-            <Navbar.Brand href="#home"><img src={"/assets/Logo_small.png"} alt="logo"/></Navbar.Brand>
+            <NavLink to="/home"><img src={"/assets/Logo_small.png"} alt="logo"/></NavLink>
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleNav}>
                 <FiMenu className="off-white" size={24}/>
             </Navbar.Toggle>

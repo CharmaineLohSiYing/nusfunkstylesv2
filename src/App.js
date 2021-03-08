@@ -11,9 +11,7 @@ import Filler from './components/Filler'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  Redirect
+  Route
 } from "react-router-dom";
 
 
@@ -27,7 +25,7 @@ function App() {
           <main>
           <Suspense fallback={<div>Loading...</div>}>
             <Switch>
-                  <Route path="/home">
+                  <Route exact path="/">
                     <Homepage/>
                   </Route>
                   <Route path="/community">
@@ -40,7 +38,7 @@ function App() {
                     <ContactMain/>
                   </Route>
                   <Route path="/">
-                    <Redirect to="/home" />
+                    <Homepage/>
                   </Route>
               </Switch>
           </Suspense>
